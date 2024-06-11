@@ -1,0 +1,33 @@
+body {
+font-family: inherit;
+}
+
+.footer {
+width: 100%;
+text-align: center;
+bottom: 0%;
+}
+
+.Überschrift_2 {
+font-size: 55px;
+}
+
+.Überschrift_3 {
+font-size: 40px;
+}
+
+p {
+font-size: 18px;
+}
+
+.li1 {
+font-size: 18px;
+font-style: italic;
+}
+
+.bild-klein {
+
+height: 300px;
+
+}
+
