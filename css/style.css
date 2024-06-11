@@ -1,0 +1,102 @@
+body {
+font-family: inherit;
+background-color: #DFF5FF;
+}
+
+.footer {
+width: 100%;
+text-align: center;
+bottom: 0%;
+}
+
+.Überschrift_2 {
+font-size: 55px;
+}
+
+.Überschrift_3 {
+font-size: 40px;
+}
+
+p {
+font-size: 18px;
+}
+
+.li1 {
+font-size: 18px;
+font-style: italic;
+}
+
+.bild-klein {
+height: 300px;
+}
+
+h4{
+
+    font-size: 30px;
+
+}
+
+.header { background-image: url('customizable-background.jpg'); 
+    background-size: 
+    cover; 
+    background-position: center; 
+    height: 300px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    } .header 
+     
+    img { width: 100px; height: 100px; border-radius: 50%; margin-right: 20px; }
+
+.Box {
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 1); 
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Animation */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 2.5s;
+}
+
+img {
+	max-width:100%;
+}
+
+@media print{
+	img {
+			width:40%;
+	}
+	.sprung, .navigation {
+			display:none;
+	}
+}
+
+.splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
